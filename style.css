@@ -1,0 +1,113 @@
+.container{
+    display:flex;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color:#e0e8ff;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.box{
+    border:1px groove;
+    border-radius:20px;
+    padding-bottom:70px;
+    padding-top:0px;
+    margin:130px;
+    position: inherit;
+    
+    width: auto;
+    align-self: center;
+
+    background-color: white;
+    
+}
+
+.box img{
+   border-radius: 20px 20px 0px 0px;
+}
+
+.content h1{
+text-align: center;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content p{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pricing{
+display:flex;
+justify-content: space-between;
+background-color:hsl(225, 100%, 98%);
+padding:10px;
+margin: 30px;
+border-radius: 20px;
+font-family: sans-serif;
+}
+
+
+ .img{
+    border-radius:100px;
+    height: px;
+    width: 45px;
+    margin: 10px;
+    padding:20px;
+
+    color:purple;
+}
+.music_note{
+    align-self: center;
+}
+
+.pricing a{
+    text-align: center;
+    
+}
+
+.action{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    
+}
+
+.change{
+    align-self: center;
+    font-family: sans-serif;
+}
+.removedefault{
+    color:blue;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+ button{
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    padding: 15px;
+    width: 80%;
+    margin:10px;
+    border-radius: 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.cancel{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 10px;
+    
+    font-family: sans-serif;
+}
+.removelinkdefault{
+    color: black;
+    text-decoration: none !important;
+}
